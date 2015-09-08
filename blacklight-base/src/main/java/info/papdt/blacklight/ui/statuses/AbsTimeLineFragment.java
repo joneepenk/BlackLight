@@ -373,7 +373,7 @@ SwipeRefreshLayout.OnRefreshListener, MainActivity.Refresher, MainActivity.Heade
 				pos = 0;
 			}
 
-			mList.smoothScrollToPosition(pos);
+			mList.scrollToPosition(pos);
 		}
 	}
 
